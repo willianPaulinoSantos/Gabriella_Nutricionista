@@ -18,8 +18,8 @@ for (var i = 0; i < pacientes.length; i++){
 	var peso = tdPeso.textContent;
 	var altura = tdAltura.textContent;
 
-	/*console.log(peso);
-	console.log(altura);*/
+	console.log(peso);
+	console.log(altura);
 		
 	pesoValido = validaPeso(peso);
 	alturaValida = validaAltura(altura);
@@ -81,14 +81,6 @@ botaoAdicionar.addEventListener("click", function () {
 	/*console.log(trPaciente);
 	console.log(tdNome);*/
 });
-
-
-
-
-
-
-
-
 
 
 
