@@ -132,23 +132,26 @@ button[disabled=disabled], button:disabled {
 .campo-invalido{
 	border: 1px solid red;
 }
-.paciente-invalido{
+
+.paciente-invalido {
 	background-color: lightcoral;
 }
 
-#mensagens-erro{
+#mensagens-erro {
 	color: red;
 }
-.fadeOut{
+
+.fadeOut {
 	opacity: 0;
 	transition: 0.5s;
-} /*essa regra faz com que o elemento vá desaparecendo e conclua o ciclo de desaparecimento em 0.5segundos*/
+}
 
 #filtrar-tabela {
-	width: 305px;
+	width: 200px;
 	height: 35px;
 	margin-bottom: 10px;
 }
+
 .invisivel {
 	display: none;
 }
